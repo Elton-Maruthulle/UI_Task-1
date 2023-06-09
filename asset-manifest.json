@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/UI_Task-1/static/css/main.5262f96b.css",
+    "main.js": "/UI_Task-1/static/js/main.960107ea.js",
+    "static/js/787.70f169b2.chunk.js": "/UI_Task-1/static/js/787.70f169b2.chunk.js",
+    "static/media/background.png": "/UI_Task-1/static/media/background.319353d1143ad011252b.png",
+    "static/media/companyLogo.png": "/UI_Task-1/static/media/companyLogo.d163f4f531bccd994e42.png",
+    "static/media/googlelogo (2).png": "/UI_Task-1/static/media/googlelogo (2).c05c3879fa560c35b977.png",
+    "static/media/facebooklogo (2).png": "/UI_Task-1/static/media/facebooklogo (2).49fb52a8bbcdad48ddcb.png",
+    "static/media/font1.otf": "/UI_Task-1/static/media/font1.5abb1699b0f56affaae5.otf",
+    "index.html": "/UI_Task-1/index.html",
+    "main.5262f96b.css.map": "/UI_Task-1/static/css/main.5262f96b.css.map",
+    "main.960107ea.js.map": "/UI_Task-1/static/js/main.960107ea.js.map",
+    "787.70f169b2.chunk.js.map": "/UI_Task-1/static/js/787.70f169b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5262f96b.css",
+    "static/js/main.960107ea.js"
+  ]
+}
