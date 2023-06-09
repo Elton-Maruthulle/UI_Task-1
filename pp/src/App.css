@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'font1';
+  src: url('./fonts/font1.otf') ;
+       
+}
+
+
+body {
+  margin: 0;
+  padding: 0px;
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 11%, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 26%, rgba(176,216,218,1) 29%, rgba(176,216,218,1) 100%);
+z-index: 2;
+
+}
+
+
+.container1 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.left-side {
+  position: relative;
+  background-color: #B0D8DA;
+  width: 30%;
+  height: 100vh; /* Set desired height */
+  border-radius: 1.5rem 0rem 0rem 1.5rem;
+  display: flex;
+  z-index: 1;
+ 
+  
+  
+}
+
+.right-side {
+  position: relative;
+  background-color: #FFFFFF;
+  width: 70%;
+  height: 100vh; /* Set desired height */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 1.5rem;
+  z-index: 0;
+  overflow-y: auto;
+  
+}
+.right-side-content{
+  padding: 30px 200px;
+}
+.language-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.dropdown-button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.additional-content {
+  padding: 20px;
+}
+
+.button-container {
+ 
+  display: flex;
+  gap: 40px;
+  margin-bottom: 7vh;
+}
+
+button {
+  border-color: #5ABBC2;
+  background-color: #ffffff;
+  padding: 3px 40px;
+  border-radius: 0.5rem;
+  
+}
+
+.foarm{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  
+  
+}
+
+.form-input {
+  border: none;
+  border-bottom: 0.5px solid #ccc;
+  padding: 5px;
+  margin-bottom: 6vh;
+  background-color: transparent;
+  outline: none;
+  width: 34.5vw;
+}
+
+.form-input:focus {
+  border-bottom-color: blue;
+}
+
+.button{
+  border: 1px solid #5ABBC2;
+  background-color: #5ABBC2;
+  height: 6.5vh;
+  width: 35vw;
+  text-align: center;
+  border-radius: 1rem;
+  
+  
+}
+
+
+
+#social_logo{
+  height: 1.2vh;
+  text-decoration: none;;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+}
+
+
+.socials{
+  display: flex;
+}
+
+    
+.OR{
+
+  margin-left: 11.6vw;
+  height: 5vh;
+  margin-bottom: 1vh ;
+}
+
+.button-container1{
+  padding-left: 1vw;
+  
+}
+.login{
+  padding-top: 2vh;
+  padding-left: 1vw;
+}
+
+.Create_Account{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.social_logo1{
+  height: 70vh;
+  /* padding-left: 1vw;
+  padding-top: 30vh; */
+  position: absolute; /* or relative */
+  left: 0;
+  top: 0;
+  transform: translate(100px, 30vh);
+
+}
+
+.leftsidetext{
+  white-space: nowrap;
+  position: relative; /* or relative */
+  left: 0;
+  top: 5vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+.companyLogo{
+  height: 5vh;
+  padding-left:5% ;
+}
